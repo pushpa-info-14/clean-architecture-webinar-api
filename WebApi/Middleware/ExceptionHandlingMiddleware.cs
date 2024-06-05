@@ -2,7 +2,7 @@
 using Domain.Exceptions.Base;
 using System.Text.Json;
 
-namespace Web.Middleware;
+namespace WebApi.Middleware;
 
 internal sealed class ExceptionHandlingMiddleware : IMiddleware
 {

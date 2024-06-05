@@ -7,7 +7,7 @@ using Infrastructure.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
-using Web.Middleware;
+using WebApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
